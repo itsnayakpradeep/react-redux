@@ -1,1 +1,1 @@
-# react-redux
+#Getting Started with React Redux
