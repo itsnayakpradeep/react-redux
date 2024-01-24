@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300,400,500,700,900&display=swap');
+.cart{
+    align-items: center;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    margin: 10px;
+    padding: 20px 50px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btn-primary {
+    background-color: rgba(0, 118, 204, 1);
+}
+.btn-danger{
+    background-color: rgba(241, 90, 34, 1);
+}
