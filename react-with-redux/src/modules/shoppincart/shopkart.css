@@ -2,9 +2,10 @@
 .cart{
     align-items: center;
 }
-
 h2{
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 .btn{
     margin: 10px;
@@ -20,10 +21,19 @@ h2{
     border: none;
     border-radius: 2rem;
 }
-
 .btn-primary {
     background-color: rgba(0, 118, 204, 1);
 }
+.btn-primary:hover{
+    background-color: rgba(65, 147, 169);;
+}
 .btn-danger{
     background-color: rgba(241, 90, 34, 1);
+}
+.btn-danger:hover{
+background-color: rgba(211, 84, 0, 1);
+}
+.btn-danger:disabled{
+    cursor: not-allowed;
+    background-color: rgba(149, 165, 166, 1);
 }

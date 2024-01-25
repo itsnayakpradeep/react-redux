@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Shopkart from './modules/shoppincart/shopkart';
 import { Provider } from 'react-redux';
