@@ -19,7 +19,8 @@ export default function Shopkart() {
           className='btn btn-danger'
           disabled= {state.numOfItems > 0 ? false : true}
           onClick={()=>dispatch(deleteItem())}
-        >Remove item
+        >
+          Remove item
         </button>
     </div>
   )
